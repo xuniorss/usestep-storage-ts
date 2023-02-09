@@ -1,11 +1,15 @@
 {
    "name": "usestep-storage-ts",
-   "version": "1.0.8",
+   "version": "1.0.9",
    "description": "This hook can be used to control each step of a form that was made with the idea of showing each step in the necessary time, thus helping to further componentize a form in react. The Hook stores the state in localstorage and even with the page update it remains in the same step",
    "main": "dist/index.js",
    "author": "xuniorss",
    "license": "MIT",
    "types": "dist/types.d.ts",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/xuniorss/usestep-storage-ts"
+   },
    "keywords": [
       "react",
       "hook",
