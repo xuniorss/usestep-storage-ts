@@ -13,7 +13,6 @@ function useStep(key, defaultValue) {
     });
     (0, react_1.useEffect)(() => {
         localStorage.setItem(key, JSON.stringify(step));
-        console.log(step);
     }, [key, step]);
     return [step, setStep];
 }
