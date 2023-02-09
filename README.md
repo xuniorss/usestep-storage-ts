@@ -1,6 +1,6 @@
 # usestep-storage-ts
 
-Este é um hook personalizado feito com TypeScript para aplicações ReactJS e NextJS que permite salvar o passo atual de um formulário mesmo quando o navegador é fechado ou recarregado.
+Este é um hook personalizado feito com TypeScript para aplicações ReactJS e NextJS que permite salvar o passo ou (step) atual de um formulário mesmo quando o navegador é fechado ou recarregado.
 
 ## Instalação
 
@@ -26,13 +26,14 @@ import useStep from 'usestep-storage-ts'
 export default function MyComponent() {
    const [step, setStep] = useStep('key', 0)
 
-   return {
+   return (
       // restante do projeto
-   }
+   )
+
 }
 ```
 
-O primeiro argumento é a chave (string) que será usada para salvar o passo no localStorage do navegador. O segundo argumento é o valor padrão caso não haja nenhum valor salvo anteriormente.
+O primeiro argumento é a chave (string) que será usada para salvar o passo ou (step) no localStorage do navegador. O segundo argumento é o valor padrão caso não haja nenhum valor salvo anteriormente.
 
 ## Contribuição
 

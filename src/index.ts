@@ -15,7 +15,6 @@ export default function useStep<T>(
 
    useEffect(() => {
       localStorage.setItem(key, JSON.stringify(step))
-      console.log(step)
    }, [key, step])
 
    return [step, setStep]
